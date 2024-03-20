@@ -1,0 +1,135 @@
+/* Color Palette */
+:root {
+    --background-colors: #022831;
+    --border_dividers: #022831;
+    --heading_actionBtn_hoverEffects: #04566E;
+    --icons_decorative_elements: #689368;
+    --subheading_importantInfo: #B4D330;
+    --contentSection_background_form-fields: #D8DFE9;
+    --white_color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 0.4rem;
+}
+
+nav {
+    grid-column: 3/7;
+    text-align: center;
+}
+
+h1 {
+    grid-column: span 6;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.Eiffel-Tower-Image img {
+
+    height: 49px;
+    width: 43px;
+}
+
+.Eiffel-Tower-Imag {
+    text-align: center;
+}
+
+.Globe-Image img {
+    height: 49px;
+    width: 43px;
+}
+
+.Globe-Image {
+    text-align: center;
+    margin-left: 4rem;
+}
+
+#srch {
+    text-align: center;
+    margin: 18px 76px;
+    border-radius: 10px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+header nav ul {
+    display: none;
+}
+
+#mblNavBtn {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 0.8rem;
+}
+
+.toggleMblNav header nav ul {
+    display: grid;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    background-color: var(--background-colors);
+    margin-right: 4rem;
+    width: 100%;
+
+}
+
+.toggleMblNav header nav ul li a {
+    color: var(--white_color);
+}
+
+
+/* main */
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: rgb(74 74 74);
+    height: 15vh;
+}
+
+footer h2 {
+    color: white;
+}
+
+.navigation-menu-footer nav ul i {
+    color: white;
+    background-color: red;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
